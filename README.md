@@ -1,0 +1,2 @@
+# hotel-alsterblick
+GitHub Pages
