@@ -1572,6 +1572,16 @@ body {
   box-shadow: none;
   background: transparent !important;
 }
+.cid-r2u7ULLYVU {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #462b11;
+}
+@media (max-width: 767px) {
+  .cid-r2u7ULLYVU .first-col {
+    padding-bottom: 1rem;
+  }
+}
 .cid-qXNdqrlpmM {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1625,6 +1635,60 @@ body {
   }
   .cid-qXNdqrlpmM .row {
     flex-direction: column-reverse;
+  }
+}
+.cid-r2C85ytbeq {
+  padding-top: 90px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-r2C85ytbeq .card {
+  flex-direction: row;
+  justify-content: center;
+}
+.cid-r2C85ytbeq .card .card-img {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.cid-r2C85ytbeq .card .card-box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 1rem;
+}
+.cid-r2C85ytbeq .card .card-img span {
+  color: #878787;
+  font-size: 60px;
+}
+.cid-r2C85ytbeq .mbr-text {
+  color: #878787;
+}
+@media (max-width: 767px) {
+  .cid-r2C85ytbeq .card {
+    flex-direction: column;
+  }
+  .cid-r2C85ytbeq .card .card-img {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  .cid-r2C85ytbeq .card .card-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  .cid-r2C85ytbeq .card .card-box .card-title,
+  .cid-r2C85ytbeq .card .card-box .mbr-text,
+  .cid-r2C85ytbeq .card .card-box .link {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .cid-r2C85ytbeq .card {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .cid-r2C85ytbeq .card .card-img {
+    text-align: right !important;
   }
 }
 .cid-qXLoH6FP2h {
@@ -1710,13 +1774,247 @@ body {
   color: #ffffff;
 }
 .cid-r0UFZolK61 {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/background4.jpg");
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #7d6f61;
 }
 @media (max-width: 767px) {
   .cid-r0UFZolK61 .first-col {
     padding-bottom: 1rem;
+  }
+}
+.cid-r2C8kxv9a3 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/background6.jpg");
+  z-index: 1;
+}
+.cid-r2C8kxv9a3 .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #ffffff;
+  display: inline-block;
+}
+.cid-r2C8kxv9a3 .mbr-text {
+  margin: 0;
+}
+.cid-r2C8kxv9a3 .first-item,
+.cid-r2C8kxv9a3 .second-item {
+  padding: 1.5rem;
+}
+.cid-r2C8kxv9a3 .first-item {
+  background: #c19b76;
+}
+.cid-r2C8kxv9a3 .first-item .item-btn .btn {
+  margin-left: 4px !important;
+}
+.cid-r2C8kxv9a3 .second-item {
+  background: #333333;
+  display: flex;
+  flex-direction: column;
+}
+.cid-r2C8kxv9a3 .second-item .check-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.cid-r2C8kxv9a3 .second-item .check-out {
+  border-top: 2px solid #000000;
+}
+.cid-r2C8kxv9a3 .content-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cid-r2C8kxv9a3 .input-wrap {
+  background: #ffffff;
+}
+.cid-r2C8kxv9a3 .booking-datepicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  overflow: hidden;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input {
+  border: none;
+  position: absolute;
+  background: transparent;
+  z-index: 2;
+  left: -90px;
+  top: 25%;
+  height: 50%;
+  width: calc(100% + 90px);
+  color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input.guests-input {
+  z-index: 0;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input::-webkit-input-placeholder {
+  color: transparent;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input::-moz-placeholder {
+  color: transparent;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input:-moz-placeholder {
+  color: transparent;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap input:-ms-input-placeholder {
+  color: transparent;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .label {
+  z-index: 1;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .date-row {
+  display: inline-flex;
+  color: #000000;
+  z-index: 1;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .date-row .day,
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .date-row .guests-count {
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .date-row .date-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .input-wrap .date-row .date-col span:first-child {
+  margin-bottom: 1rem;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn .input-group-btn {
+  height: 100%;
+}
+.cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn .input-group-btn .btn {
+  margin: 0;
+  height: 100%;
+  line-height: 18px;
+}
+@media (max-width: 991px) {
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn .input-group-btn .btn {
+    padding: 2rem;
+  }
+}
+.cid-r2C8kxv9a3 .datepicker {
+  background-color: #ffffff;
+  color: #000000;
+}
+.cid-r2C8kxv9a3 .datepicker .active.day {
+  background-color: #2b6477 !important;
+  color: #ffffff !important;
+}
+.cid-r2C8kxv9a3 .datepicker:after {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form .col-3,
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn {
+    max-width: 60% !important;
+  }
+  .cid-r2C8kxv9a3 .booking-datepicker .mbr-form .mbr-section-btn .input-group-btn .btn {
+    margin: 0 !important;
+  }
+  .cid-r2C8kxv9a3 .item-text {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .cid-r2C8kxv9a3 .booking-datepicker input:not(.guests-input) {
+    border-right: 1px solid #cccccc !important;
+  }
+}
+@media (max-width: 767px), (max-width: 991px) {
+  .cid-r2C8kxv9a3 .booking-datepicker {
+    padding: 2rem 0 0 0;
+  }
+}
+.cid-r2C8dO2BM0 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-r2C8dO2BM0 .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #878787;
+  display: inline-block;
+}
+.cid-r2C8dO2BM0 .mbr-section-subtitle,
+.cid-r2C8dO2BM0 .mbr-text {
+  color: #878787;
+}
+.cid-r2C8dO2BM0 .wrapper {
+  position: relative;
+  padding: 2rem;
+}
+.cid-r2C8dO2BM0 .wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-r2C8dO2BM0 .wrapper .content-block {
+  padding: 2rem;
+  position: relative;
+}
+.cid-r2C8dO2BM0 .wrapper .content-block > *:not(.mbr-overlay) {
+  position: relative;
+}
+.cid-r2C8dO2BM0 .wrapper .content-block .mbr-overlay {
+  background: #ffffff;
+  opacity: 0.9;
+}
+.cid-r2C8dO2BM0 .wrapper .content-block .mbr-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .cid-r2C8dO2BM0 .content-section {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r2C8dO2BM0 .wrapper {
+    padding: 1rem;
+  }
+  .cid-r2C8dO2BM0 .wrapper .content-block {
+    padding: 1rem;
   }
 }
 .cid-qXLkpegYlS {
@@ -1788,6 +2086,47 @@ body {
 .cid-qXLkpegYlS .main-title {
   text-align: center;
   color: #ffffff;
+}
+.cid-r2u7QUqwIQ {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-r2u7QUqwIQ .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #878787;
+  display: inline-block;
+}
+.cid-r2u7QUqwIQ .mbr-text {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .cid-r2u7QUqwIQ .title {
+    width: 100% !important;
+  }
+}
+.cid-r2u7RWGVsz {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-r2u7RWGVsz .line {
+  background-color: #7c1606;
+  color: #7c1606;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-r2u7RWGVsz .mbr-text {
+  padding: 2rem 0;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .cid-r2u7RWGVsz .inner-container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
 }
 .cid-qXLkv2V90v {
   padding-top: 45px;
@@ -3438,10 +3777,116 @@ body {
     width: 100% !important;
   }
 }
-.cid-r0Yd93hrLI {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.cid-r2ueYeiWum {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #ffffff;
+}
+.cid-r2ueYeiWum .row {
+  flex-direction: row-reverse;
+}
+.cid-r2ueYeiWum .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #878787;
+  display: inline-block;
+}
+.cid-r2ueYeiWum .image-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+.cid-r2ueYeiWum .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-r2ueYeiWum .text-element {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cid-r2ueYeiWum .mbr-section-subtitle,
+.cid-r2ueYeiWum .mbr-text {
+  color: #878787;
+}
+.cid-r2ueYeiWum .mbr-text {
+  line-height: 27px;
+  padding: 2.5rem;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .cid-r2ueYeiWum .row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .cid-r2ueYeiWum .text-element {
+    padding-top: 0;
+  }
+}
+#RSRCULADVContactForm-1f h3 {
+  font-size: 46px;
+}
+#RSRCULADVContactForm-1f small {
+  font-size: 26px;
+}
+#RSRCULADVContactForm-1f .form-check-inline {
+  width: 30%;
+  float: left;
+  color: #a1a1a1;
+}
+#RSRCULADVContactForm-1f .form-check-inline1 {
+  width: 30%;
+  float: left;
+  color: #a1a1a1;
+}
+#RSRCULADVContactForm-1f .form-check-inline2 {
+  float: left;
+  color: #a1a1a1;
+}
+#RSRCULADVContactForm-1f .form-checkbox-inline {
+  width: 100%;
+  float: left;
+  color: #a1a1a1;
+}
+#RSRCULADVContactForm-1f .form-check-input {
+  margin-left: 2.25rem;
+}
+#RSRCULADVContactForm-1f #genderRadio1 {
+  margin-left: 3.5rem;
+}
+#RSRCULADVContactForm-1f #genderRadio2 {
+  margin-left: 4.5rem;
+}
+#RSRCULADVContactForm-1f #genderRadio3 {
+  margin-left: 9.25rem;
+}
+#RSRCULADVContactForm-1f #gender-div {
+  border: 1px #a1a1a1 solid;
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 55px;
+}
+#RSRCULADVContactForm-1f #terms-div {
+  border: 1px #a1a1a1 solid;
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 55px;
+}
+#RSRCULADVContactForm-1f #sendbutton {
+  text-align: left;
+}
+#RSRCULADVContactForm-1f .engine {
+  display: none !important;
 }
 .cid-r0Yd94259p {
   padding-top: 60px;
